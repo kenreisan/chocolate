@@ -17,7 +17,7 @@ unsigned long long fibonacci(int num){
     /*
      * Recibe:  Numero de la serie de Fibonacci.
      *
-     * Regresa: El valor correspondiente alo numero
+     * Regresa: El valor correspondiente al numero
      *          de la serie de Fibonacci.
      *
      * Los casos bases son 0 y 1, despues solo es una suma

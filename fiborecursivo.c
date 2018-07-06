@@ -1,8 +1,27 @@
+/*
+ * Autor: Eduardo Romero
+ * Version: 1.0
+ *
+ * Programa para calcular los numeros de la serie de
+ * Fibonacci. Se usa el metodo recursivo.
+ *
+ * Por las limitantes del rango de numeros que puede
+ * contener un "unsigned long long" el numero de Fibonacci
+ * que puede mostrar el programa es fibo[93], pero no 
+ * recomiendo calcular mas allá del fibo[50].
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
 unsigned long long fibo(int num){
-	
+	/*
+	Recibe:	Numero deseado a calcular.
+
+	Regresa: Numero de la serie de Fibonacci.
+
+	Calcula de manera recursiva el numero de Fibonacci.
+	*/
 	unsigned long long resultado;
 
 	if (num < 3)
